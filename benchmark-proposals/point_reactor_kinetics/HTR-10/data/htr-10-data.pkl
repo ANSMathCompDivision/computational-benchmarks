@@ -1,0 +1,145 @@
+(dp0
+S'initial_neutron_population'
+p1
+S'Initial number of neutrons in the reactor'
+p2
+sS'lifetime'
+p3
+S'The neutron lifetime usually denoted capital lambda'
+p4
+sS'lambdas'
+p5
+S'Precursor decay constants for each group'
+p6
+sS'betas'
+p7
+S'Fraction of neutrons born delayed in each group'
+p8
+sS'n_delay_groups'
+p9
+S'Number of delay groups'
+p10
+s.(dp0
+S'initial_neutron_population'
+p1
+F10000000.0
+sS'lifetime'
+p2
+F0.00168
+sS'lambdas'
+p3
+(lp4
+F0.0127
+aF0.0317
+aF0.115
+aF0.311
+aF1.4
+aF3.87
+asS'betas'
+p5
+(lp6
+F0.000285
+aF0.0015975
+aF0.00141
+aF0.0030525
+aF0.00096
+aF0.000195
+asS'n_delay_groups'
+p7
+I6
+s.(dp0
+S'initial_fuel_temperature'
+p1
+S'Initial fuel temperature'
+p2
+sS'heat_transfer_fuel_to_graphite'
+p3
+S'Heat transfer coefficient from fuel to graphite'
+p4
+sS'cp_graphite'
+p5
+S'Specific heat capacity of the graphite'
+p6
+sS'cp_fuel'
+p7
+S'Specific heat capacity of the fuel'
+p8
+sS'graphite_mass'
+p9
+S'Mass of the graphite'
+p10
+sS'helium_temperature'
+p11
+S'The helium coolant temperature (constant)'
+p12
+sS'initial_graphite_temperature'
+p13
+S'Initial graphite temperature'
+p14
+sS'heat_transfer_graphite_to_helium'
+p15
+S'Heat transfer coefficient from graphite to fuel'
+p16
+sS'fuel_mass'
+p17
+S'Mass of the fuel'
+p18
+s.(dp0
+S'initial_reactivity_insertion_dollar'
+p1
+S'Initial reactivity insertion in $'
+p2
+sS'graphite_temperature_coefficient'
+p3
+S'Feedback coefficient from the graphite drho = coeff * (T-T0)'
+p4
+sS'fuel_temperature_coefficient'
+p5
+S'Feedback coefficient from the fuel drho = coeff * (T-T0)'
+p6
+sS'initial_reactivity_insertion'
+p7
+S'Initial reactivity insertion = initial_reactivity_insertion_dollar * beta'
+p8
+s.(dp0
+S'initial_reactivity_insertion_dollar'
+p1
+F0.05
+sS'graphite_temperature_coefficient'
+p2
+F-0.000157
+sS'fuel_temperature_coefficient'
+p3
+F-1.9e-05
+sS'initial_reactivity_insertion'
+p4
+F0.000375
+s.(dp0
+S'initial_fuel_temperature'
+p1
+I853
+sS'heat_transfer_fuel_to_graphite'
+p2
+F393700.78740157513
+sS'cp_graphite'
+p3
+F1855.9
+sS'cp_fuel'
+p4
+F316.1063
+sS'initial_mod_temperature'
+p5
+F827.6
+sS'graphite_mass'
+p6
+F3304.2788981
+sS'helium_temperature'
+p7
+I748
+sS'heat_transfer_graphite_to_helium'
+p8
+F125628.14070351755
+sS'fuel_mass'
+p9
+F54.613581
+s.
